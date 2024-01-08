@@ -1,0 +1,24 @@
+.card{
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.14);
+}
+.dash-card{width:277px ;}
+
+@media only screen and (max-width: 600px) {
+    .card:hover {
+     display:  none;
+    }
+    .dash-card{width:180px ;}
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+        .card:hover {
+            display:  none;
+           }
+           .dash-card{width:200px ;}
+    
+  }

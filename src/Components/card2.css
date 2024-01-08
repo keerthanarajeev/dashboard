@@ -1,0 +1,29 @@
+.card2{
+    font-size: 14px;
+    width: 450px;
+    height: 200px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .card2{
+        width: 250px;
+        margin-left: -90px;
+        height: 270px;
+
+    }
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    .card2{
+        width: 300px;
+        margin-left: -70px;
+        height: 270px;
+
+    }
+  }
+   
+    

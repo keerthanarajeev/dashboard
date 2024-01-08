@@ -1,0 +1,32 @@
+.pic{
+    width: 80px;
+    clip-path: circle();
+}
+.Name{
+    display: flex;
+}
+.sidebar{
+    height: 128vh;
+    width: 230px;
+    background-color: #fff;
+}
+.bar{
+    font-size: 20px;
+
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .sidebar { width: 80px; height: 60vh;
+       }
+    .email{display: none;}
+     }
+
+@media only screen and (max-width: 768px) {
+        .sidebar { width: 100px; height: 80vh;
+        }
+     .email{display: none;}
+       
+        }
+      

@@ -1,0 +1,8 @@
+.sidebtn:hover{
+background-color: skyblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .p-title { display: none;
+       }
+     }
